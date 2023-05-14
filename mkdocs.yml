@@ -1,0 +1,8 @@
+site_name: Documenation
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - User Guide: about.md
+extra_css: [extra.css]
+theme: readthedocs
+
