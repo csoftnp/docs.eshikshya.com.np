@@ -1,1 +1,1 @@
-# eShikshyaDocs
+# eShikshya user manual
