@@ -1,132 +1,743 @@
-<!DOCTYPE html>
-<html class="writer-html5" lang="en" >
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://example.com/about/" />
-      <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>User Guide - Documenation</title>
-    <link rel="stylesheet" href="../css/theme.css" />
-    <link rel="stylesheet" href="../css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
-        <link href="../extra.css" rel="stylesheet" />
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
     
-      <script>
-        // Current page data
-        var mkdocs_page_name = "User Guide";
-        var mkdocs_page_input_path = "about.md";
-        var mkdocs_page_url = "/about/";
-      </script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://example.com/about/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.9">
     
-    <script src="../js/jquery-3.6.0.min.js" defer></script>
-    <!--[if lt IE 9]>
-      <script src="../js/html5shiv.min.js"></script>
-    <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
-</head>
+    
+      
+        <title>User Guide - Documenation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.85bb2934.min.css">
+      
+      
 
-<body class="wy-body-for-nav" role="document">
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Documenation
-        </a><div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
-                </li>
-              </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="./">User Guide</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#login">Login</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#dashboard">Dashboard</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#front-desk">Front Desk</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#admission-enquiry">Admission Enquiry</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#visitor-book">Visitor Book</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#phone-call-log">Phone Call log</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#postal-dispatch">Postal Dispatch</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#postal-receive">Postal Receive</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#complain">Complain</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#setup-front-office">Setup Front Office</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#student-information">Student Information</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#student-details">Student Details</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#student-admissions">Student Admissions</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#online-admission">Online Admission</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#class">Class</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#section">Section</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#delete-students">Delete Students</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#student-categories">Student Categories</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#student-house">Student House</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#dropout-students">Dropout Students</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#dropout-reason">Dropout Reason</a>
-    </li>
-        </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#fees-collection">Fees Collection</a>
-        <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#print-monthly-fees">Print Monthly Fees</a>
-    </li>
-        </ul>
-    </li>
-    </ul>
-                </li>
-              </ul>
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Documenation" class="md-header__button md-logo" aria-label="Documenation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documenation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              User Guide
+            
+          </span>
+        </div>
       </div>
     </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Documenation</a>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
         
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
       </nav>
-      <div class="wy-nav-content">
-        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>User Guide</li>
-    <li class="wy-breadcrumbs-aside">
-    </li>
-  </ul>
-  <hr/>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-            <div class="section" itemprop="articleBody">
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
               
-                <h1 id="_1"></h1>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Documenation" class="md-nav__button md-logo" aria-label="Documenation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Documenation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          User Guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        User Guide
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    Login
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    Dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#front-desk" class="md-nav__link">
+    Front Desk
+  </a>
+  
+    <nav class="md-nav" aria-label="Front Desk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#admission-enquiry" class="md-nav__link">
+    Admission Enquiry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visitor-book" class="md-nav__link">
+    Visitor Book
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phone-call-log" class="md-nav__link">
+    Phone Call log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postal-dispatch" class="md-nav__link">
+    Postal Dispatch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postal-receive" class="md-nav__link">
+    Postal Receive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complain" class="md-nav__link">
+    Complain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-front-office" class="md-nav__link">
+    Setup Front Office
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#student-information" class="md-nav__link">
+    Student Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Student Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#student-details" class="md-nav__link">
+    Student Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-admissions" class="md-nav__link">
+    Student Admissions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-admission" class="md-nav__link">
+    Online Admission
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class" class="md-nav__link">
+    Class
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section" class="md-nav__link">
+    Section
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-students" class="md-nav__link">
+    Delete Students
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-categories" class="md-nav__link">
+    Student Categories
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-house" class="md-nav__link">
+    Student House
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropout-students" class="md-nav__link">
+    Dropout Students
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropout-reason" class="md-nav__link">
+    Dropout Reason
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fees-collection" class="md-nav__link">
+    Fees Collection
+  </a>
+  
+    <nav class="md-nav" aria-label="Fees Collection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#print-monthly-fees" class="md-nav__link">
+    Print Monthly Fees
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collect-fees" class="md-nav__link">
+    Collect Fees
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assign-fees" class="md-nav__link">
+    Assign Fees.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-title" class="md-nav__link">
+    Fees Title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-type" class="md-nav__link">
+    Fees Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-waiver" class="md-nav__link">
+    Fees Waiver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-carry-forward" class="md-nav__link">
+    Fees Carry Forward
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fee-reminder" class="md-nav__link">
+    Fee Reminder
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#login" class="md-nav__link">
+    Login
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard" class="md-nav__link">
+    Dashboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#front-desk" class="md-nav__link">
+    Front Desk
+  </a>
+  
+    <nav class="md-nav" aria-label="Front Desk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#admission-enquiry" class="md-nav__link">
+    Admission Enquiry
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visitor-book" class="md-nav__link">
+    Visitor Book
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#phone-call-log" class="md-nav__link">
+    Phone Call log
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postal-dispatch" class="md-nav__link">
+    Postal Dispatch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#postal-receive" class="md-nav__link">
+    Postal Receive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complain" class="md-nav__link">
+    Complain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-front-office" class="md-nav__link">
+    Setup Front Office
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#student-information" class="md-nav__link">
+    Student Information
+  </a>
+  
+    <nav class="md-nav" aria-label="Student Information">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#student-details" class="md-nav__link">
+    Student Details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-admissions" class="md-nav__link">
+    Student Admissions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#online-admission" class="md-nav__link">
+    Online Admission
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#class" class="md-nav__link">
+    Class
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section" class="md-nav__link">
+    Section
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-students" class="md-nav__link">
+    Delete Students
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-categories" class="md-nav__link">
+    Student Categories
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-house" class="md-nav__link">
+    Student House
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropout-students" class="md-nav__link">
+    Dropout Students
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropout-reason" class="md-nav__link">
+    Dropout Reason
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fees-collection" class="md-nav__link">
+    Fees Collection
+  </a>
+  
+    <nav class="md-nav" aria-label="Fees Collection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#print-monthly-fees" class="md-nav__link">
+    Print Monthly Fees
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collect-fees" class="md-nav__link">
+    Collect Fees
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assign-fees" class="md-nav__link">
+    Assign Fees.
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-title" class="md-nav__link">
+    Fees Title
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-type" class="md-nav__link">
+    Fees Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-waiver" class="md-nav__link">
+    Fees Waiver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees-carry-forward" class="md-nav__link">
+    Fees Carry Forward
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fee-reminder" class="md-nav__link">
+    Fee Reminder
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="_1"></h1>
 <h2 id="login">Login</h2>
 <ol>
 <li>Enter your Username, Password and Click on Sign in to access your account. </li>
@@ -150,8 +761,8 @@
 <h3 id="admission-enquiry">Admission Enquiry</h3>
 <p><img alt="Admission Enquiry" src="../Images/Admission%20enquiry.png" /> 
 <i>Image 5</i></p>
-<p>Add admission enquiry form:</p>
-<p>Fill the details and click on save. The saved details should appear on the List of Admission Enquiries Shown in Image 5.</p>
+<p><b>Add admission enquiry form:</b><br>
+Fill the details and click on save. The saved details should appear on the List of Admission Enquiries Shown in Image 5.</p>
 <p><img alt="Add admission enquiry form" src="../Images/Add%20admission%20enquiry%20form.png" /> 
 <i>Image 6</i></p>
 <h3 id="visitor-book">Visitor Book</h3>
@@ -242,46 +853,126 @@ Then click on <b>Generate.</b>
 The Following Page should appear once you click on Generate. Click on <b>Print</b> if you want  to Print the Fees. 
 <img alt="Student Fee" src="../Images/Print%20Student%20Fee1.png" />
 <i>Image 31</i></p>
-              
+<h3 id="collect-fees">Collect Fees</h3>
+<p>To update fee collection; Go to <b>Collect Fees</b> under <b>Fees collection.</b><br>
+Search according to class/ section.<br>
+Select the student From the list shown and click on <b>Collect Fees.</b>
+<img alt="Collect Fee" src="../Images/Collect%20Fees.png" />
+<i>Image 32</i><br>
+Click on <b> Show All</b> to view the Fee history.
+<img alt="Collect Fee" src="../Images/Collect%20Fees%20Show%20all.png" />
+<i>Image 33</i><br>
+This page should appear once you click on <b> Show All.</b> <br>
+It shows all the fees history including paid/due/partially paid. <br>
+<img alt="Collect Fee" src="../Images/Collect%20fees%20hide%20paid.png" />
+<i>Image 34</i><br>
+<b>Pay All</b> <br>
+In reference to Image 34, when you click on <b>Pay All</b>, you see a pop up as shown in the picture below. Update the amount and click save. This will clear all the remaining due fees.
+<img alt="Collect Fee" src="../Images/Collect%20fee%20pay%20selected.png" /><br />
+<i>Image 35</i><br>
+<b>Pay Selected</b> <br>
+In reference to Image 34, click on the check box on the left to the fee you want to select and click on <b>Pay Selected.</b> This will give you a pop up as shown in the picture below. Update the amount and click save. 
+<img alt="Collect Fee" src="../Images/Collect%20fee%20pay%20selected.png" />
+<i>Image 36</i><br>
+<b>Print Selected</b> <br>
+In reference to Image 34, click on the check box on the left of <b>Fees Group</b> to select all fees from the list OR click on the check box left to the fee you want to select and click on <b>Print Selected.</b> This will give you the receipt of all the selected fees in a printable format. 
+<img alt="Collect Fee" src="../Images/Collect%20Fees%20Print.png" />
+<i>Image 37</i><br>
+<b>Print Today</b> <br>
+In reference to Image 34, click on <b>Print Today</b> to get the receipt of all due fees in a printable format. 
+<img alt="Collect Fee" src="../Images/Collect%20Fees%20Print.png" />
+<i>Image 38</i><br></p>
+<h3 id="assign-fees">Assign Fees.</h3>
+<p>In reference to the Image 39: <br> </p>
+<ul><li>Different Fee subgroups can be created here.</li>
+<li>Select Fee group and Fee type. Enter the fee amount.</li>
+<li>If there is a fine to be added, select fine type. </li>
+<li>Select <b>percentage</b> if fine type is in percentage. </li>
+<li>Enter the percentage, the fine amount will automatically be calculated. </li>
+<li>If it is a fix amount, select on <b>Fix amount</b> on <b>Fine Type.</b></li>
+<li>Enter the fine amount in the entry field. </li>
+<li>Click on save. </li>
+<li>The updated fee group should appear on the <b>Fees Master List.</b></li>
+<li>Click on the Assign/View student icon under <b>Action.</b></ul>
+<p><img alt="Collect Fee" src="../Images/Fees%20assign.png" />
+<i>Image 39</i><br></p>
+<p>You should be redirected to the page shown in Image 40 once you click on <b>Assign/ View student</b> icon.
+<img alt="Collect Fee" src="../Images/Fees%20Assign1.png" />
+<i>Image 40</i><br></p>
+<ul><li>Enter the class, section, month you want to assign the fees to and click on search. </li></ul>
+<p><img alt="Assign Fee" src="../Images/Assign%20Fee%20Criteria.png" />
+<i>Image 41</i><br></p>
+<ul><li>Click on the check box left to <b>All</b> or click on the checkbox left to the student you want to assign the fee to.</li>
+<li> Click on <b>Save.</b></li></ul>
+
+<h3 id="fees-title">Fees Title</h3>
+<p>The Created Fees Group appears in the <i>Fees Group List selection</i> shown in Image 40. 
+If the list of options in <b>Fees Group</b> in <b>Assign fees</b> lacks something, new option can be added here.
+<img alt="Fee group" src="../Images/Create%20fee%20group.png" />
+<i>Image 41</i><br></p>
+<h3 id="fees-type">Fees Type</h3>
+<p>The created Fees Type appears in the <i>Fees Type List selection</i> shown in Image 40. 
+If the list of options in <b>Fees Type</b> in <b>Assign fees</b> lacks something, new option can be added here.
+<img alt="Fee type" src="../Images/Add%20fee%20type.png" />
+<i>Image 42</i><br></p>
+<h3 id="fees-waiver">Fees Waiver</h3>
+<ul>
+<li>Select class, block and fee type and click on search.</li>
+<li>List of students should appear as shown in the image below.</li>
+<li>Select on the student you want to assign the waiver to.</li>
+<li>Click on <b>Save.</b></li>
+</ul>
+
+<p><img alt="Fee waiver" src="../Images/Fee%20waiver.png" />
+<i>Image 43</i><br></p>
+<h3 id="fees-carry-forward">Fees Carry Forward</h3>
+<p><img alt="Fees Carry Forward" src="../Images/Fee%20Carry%20Forward.png" />
+<i>Image 44</i><br></p>
+<h3 id="fee-reminder">Fee Reminder</h3>
+<p><img alt="Fee Reminder" src="../Images/Fee%20Reminder.png" />
+<i>Image 45</i><br></p>
+
+
+
+
+
+                
+              </article>
             </div>
-          </div><footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-    </div>
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-  </div>
-
-</footer>
+          
           
         </div>
-      </div>
-
-    </section>
-
-  </div>
-
-  <div class="rst-versions" role="note" aria-label="Versions">
-  <span class="rst-current-version" data-toggle="rst-current-version">
-    
-    
-      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
-    
-    
-  </span>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme_extra.js" defer></script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
-            SphinxRtdTheme.Navigation.enable(true);
-        };
-    </script>
-
-</body>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fac441b0.min.js"></script>
+      
+    
+  </body>
 </html>

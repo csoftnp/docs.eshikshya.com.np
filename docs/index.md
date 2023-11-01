@@ -1,20 +1,11 @@
-# Introduction
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
-
-
+##Login
+<ul><li>Enter your Username, Password and Click on Sign in to access your account. </li></ul>
+![Login Page](Images/eShikshya Login.png) 
+<i>Image 1</i>
+##Forgot Password
+<ul><li>In case you forgot password, on the login page, Click on Forgot password.
+<li>You should be redirected to this page once you click on Forgot Password:</li></ul>
+![Reset Password](Images/Reset password.png) 
+<i>Image 2</i> 
+<ul><li>Enter the email linked to your account, a recovery code will be sent to your email.</li>
+<li>Enter the recovery code and reset your password. </li></ul>
