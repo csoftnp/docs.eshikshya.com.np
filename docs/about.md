@@ -986,4 +986,66 @@ To design ID card for staffs, go to staff ID card under Certificate. The followi
 <li>If you want to generate Id cards for selective staffs, click on the checkbox next to the name of the students and click on generate. 
 <li>Once you click on generate, you will be shown a page that allows you to print the ID card. </li></ul>
 
+##Front CMS
+
+
+###Event
+
+
+###Gallery 
+
+
+###News 
+
+
+###Media Manager 
+
+
+###Pages 
+
+
+###Menus 
+
+
+###Banner Images 
+
+
+##Alumni 
+
+
+###Manage Alumni
+
+
+###Events
+
+
+##Reports 
+
+###Student Information
+
+###Finance
+
+###Attendance
+
+###Examinations
+
+###Online Examinations
+
+###Lesson Plan 
+
+###Human Resource 
+
+###Library 
+
+###Inventory
+
+###Transport 
+
+###Hostel 
+
+###Alumni 
+
+###User Log
+
+###Audit Trail Report 
 
