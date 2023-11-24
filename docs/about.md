@@ -967,7 +967,7 @@ To design ID card for students, go to Student ID card under Certificate. The fol
 
 ###Staff ID Card
 To design ID card for staffs, go to staff ID card under Certificate. The following page should appear.
-![Certificate](Images/Staff ID card.png)
+![Staff ID](Images/Staff ID card.png)
 <i>Image </i><br>
 <ul><li>As seen on the images above, this page allows you to customize your page.
 <li>You are required to fill in the details such as; Background image, school logo, Signature, Id card height, width, school name, validity etc. 
@@ -976,7 +976,7 @@ To design ID card for staffs, go to staff ID card under Certificate. The followi
 
 ###Generate Staff ID 
  This is where you can Generate ID card for Staffs. You should see the following page once you click on Generate ID card. 
- ![Certificate](Images/Generate Staff ID.png)
+ ![Staff ID](Images/Generate Staff ID.png)
 <i>Image </i><br>
 <ul><li>On the select criteria filter, you can select the Role and  ID card template. 
 <li>Once you click on search, the staff list on the selected Role should appear as shown in the image below. </li></ul>
@@ -986,4 +986,566 @@ To design ID card for staffs, go to staff ID card under Certificate. The followi
 <li>If you want to generate Id cards for selective staffs, click on the checkbox next to the name of the students and click on generate. 
 <li>Once you click on generate, you will be shown a page that allows you to print the ID card. </li></ul>
 
+##Front CMS
 
+Front CMS is the school page where you publish articles, news, event updates, etc.  You can setup what you want to display in your school page here.
+
+###Event
+To add an event to CMS, go to Event under CMS. The following page should appear. 
+![CMS](Images/CMS Event.png)
+<i>Image </i><br>
+
+As you can see on the image, you can enter the event title, assign venue, start and end date, and Description. 
+- Title: Name of the Event
+
+- Venue: Place where the event will take place
+
+- Event start: Start date of the event.
+
+- Event end: End date of the event.
+
+- Description: Here you write the content; e.g., The details abot the event, what the event is about and so on. This section also gives you the flexibility of choosing fonts, font size, bold, italics, underlining fonts, etc. 
+
+###Gallery 
+
+The Gallery section functions as a digital repository where you can upload and organize images. Similar to the gallery on your phone, this feature enables you to manage and showcase a collection of images related to your school's activities and events. <br>
+To upload photos to your gallery, go to gallery under Front CMS. the following page should appear. 
+![CMS](Images/Gallery.png)
+<i>Image </i><br>
+
+- You can see that all existing uploaded images can be seen on this page. 
+
+- To add new image, go to Add  on the top right of the page. The following page should appear.
+
+![CMS](Images/Gallery1.png)
+<i>Image </i><br>
+
+As shown in the image above, you'll be directed to a page where you can input essential details for your content which includes a title, upload media files, provide a description, and attach images. This streamlined process allows you to efficiently organize and enhance your content with relevant information and visuals.
+
+
+###News 
+
+"News" is a module designed for creating, managing, and publishing timely updates or articles. It allows users to share announcements, events, and important information with the audience. This feature supports the addition, editing, and deletion of news articles, along with the option to include relevant images. The "News" section serves as a dynamic tool for keeping users informed and engaged with the latest content on the platform.<br>
+Click on News under Front CMS. The following page should appear. 
+![CMS](Images/News.png)
+<i>Image </i><br>
+
+
+As shown in the images, if there are existing articles, It will appear here.
+
+** Editing an Existing News Article:**<br>
+
+- Locate the news article you want to edit in the News section.
+
+- Click on the "Edit" button.
+
+- Modify the necessary details.
+
+- Click "Save" to apply the changes.
+
+** Deleting a News Article:**<br>
+
+- Find the news article you wish to delete.
+
+- Click on the "Delete" button.
+
+- Confirm the deletion when prompted.
+
+
+Click on the "Add News" button. The following page should appear. 
+![CMS](Images/News1.png)
+<i>Image </i><br>
+
+Fill in the required details:
+- Title: Enter the title of the news article.
+
+- Date: Set the date when the news article should be published.
+
+- Description: Add the main content of the article.
+
+- Add media: Upload relevant images to accompany the news article.
+
+- Click "Save" to publish the news article.
+
+###Media Manager 
+
+The Media Manager is a tool that enables users to efficiently handle and showcase multimedia content on their website or platform. When you click on Media Manager under Front CMS, the following page should appear:
+
+![CMS](Images/Media Manager.png)
+<i>Image </i><br>
+
+- Upload Your File:
+
+This feature allows users to easily upload various types of files, including images, videos, documents, and more. By selecting the "Upload Your File" option, users can seamlessly add their desired media content to the platform.
+
+- Upload YouTube Video:
+
+The "Upload YouTube Video" attribute provides a convenient way to integrate video content hosted on YouTube directly into the platform. Users can simply input the YouTube video link, and the Media Manager will embed the video for seamless viewing.
+
+###Pages 
+You can set up your pages redirection here. Like when you click on the home button, you will be directed to the home page. <br>
+To setup home page, go to Pages under Front CMS. The following page should appear.
+
+![CMS](Images/Pages.png)
+<i>Image </i><br>
+
+- Title:
+
+The "Title" attribute allows users to input the name or title of the new page. This title serves as the identifier for the page and is typically displayed prominently on the website.
+
+- Page Type: 
+
+The "Page Type" attribute offers users the flexibility to categorize the new page based on its content and purpose. Users can choose from various types, such as Standard, Events, News, or Gallery, tailoring the page to specific functionalities or themes.
+
+- Description:
+
+The "Description" attribute provides a space for users to include a brief overview or description of the page. This description can serve as additional context for visitors and is often displayed alongside the page title.
+
+- Add Media:
+
+The "Add Media" feature allows users to enrich the page by incorporating multimedia content. This could include images, videos, or other media assets that enhance the visual appeal and engagement of the page.
+Save:
+
+The "Save" button is the final step in the process, allowing users to preserve their page configuration and content. Clicking "Save" confirms the creation of the new page with the specified attributes.
+
+###Menus 
+The "Add Menu" feature in Front CMS allows users to efficiently create and customize navigation menus for their website. <br>
+To create menus, go to Menu under Front CMS. The following oage should appear.
+
+![CMS](Images/Menus.png)
+<i>Image </i><br>
+
+- On the left side of the oage, you can see a form where you can define the menu name and description. 
+
+- Once you create a menu, it'll appear on a list on the right side of the page as shown in the picture. 
+
+- Next to the menu you have defined, there is a '+' action button which will direct you to a page where you can define the menu items as shown in the image below. 
+
+![CMS](Images/Menu List.png)
+<i>Image </i><br>
+
+
+
+###Banner Images 
+ 
+You can upload the banner image of your school for your CMS here. <br> When you click on Banner Images under Fromt CMS, the following page should appear:
+![CMS](Images/Banner.png)
+<i>Image </i><br>
+
+- On the page, click on Add Images to go to select banner page
+
+- The images that you uploaded in the media manager will appear from which you can select you banner image.  
+
+##Alumni 
+
+
+###Manage Alumni
+To manage school alumni, got to Manage Alumni under Alumni. The following page should appear.
+![Alumni](Images/Manage Alumni.png)
+<i>Image </i><br>
+
+- You see a filter to select criteria. The filter includes, Pass put year, Class, Section and search. Or if you know the student admission number, You can choose to search via student admission number. 
+
+- For example, In the image below, I have searched students of grade 2 for 2080-2081 session. 
+
+![Alumni](Images/Manage Alumni1.png)
+<i>Image </i><br>
+
+- Beside the name of the student, there is a Action '+' button. Click on that button to Add Alumni. A forn shown in the image below should appear.
+![Alumni](Images/Add Alumni Details.png)
+<i>Image </i><br>
+
+- Fill in the Alumni details like current phone, email, occupation, address, photo and click on save. 
+
+###Events
+
+To manage school events, go to events under Alumni. The following page should appear. 
+![Alumni](Images/Alumni Events.png)
+<i>Image </i><br>
+- On the left side of the page  right side of the page you can see the calendar. 
+
+- On the right side of the page you can see an add event button. Click on it, the following page should appear. 
+
+![Alumni](Images/Add Event.png)
+<i>Image </i><br>
+
+- On the form, there you will first see an option to choose who the event is for: Alumni or class
+
+- You are required to enter the Event name, dates, notification message, you can choose if you want to send the message notification through email or SMS and click on save. 
+
+##Reports 
+
+###Student Information 
+
+To generate reports on student go to Student information under Reports. The following page should appear. 
+![Reports](Images/Student Report.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various student report type. Such as: 
+
+ **Student Information Report:**
+
+Provides a comprehensive overview of individual student details, including personal information, contact details, and academic history.
+
+**Student Report:** 
+
+Offers a summary of a student's academic performance, including grades, attendance, and other relevant details for a specific time period.
+
+**Class & Section Report:** 
+
+Presents information about the overall performance, attendance, and demographic details of students within a specific class and section.
+
+**Guardian Report:** 
+
+Summarizes information about the parents or guardians of students, including contact details, emergency information, and involvement in school activities.
+
+**Student History:** 
+
+Provides a historical overview of a student's academic journey, including past grades, attendance records, and any disciplinary actions.
+
+**Student Login Credential:** 
+
+Generates and manages login credentials for students, allowing them access to the school's online portal or learning management system.
+
+**Class Subject Report:** 
+
+Offers insights into the performance of students in specific subjects within a class, helping teachers identify areas that may need additional attention.
+
+**Admission Report:**
+
+Summarizes data related to student admissions, including the number of new students, admission trends, and demographic information.
+
+**Sibling Report:** 
+
+Provides information about students who have siblings attending the same school, facilitating family-based analysis and communication.
+
+**Student Profile:** 
+
+Offers a detailed profile of an individual student, including academic achievements, extracurricular activities, and any special considerations.
+
+**Homework Evaluation Report:** 
+
+Summarizes the performance of students in completing and submitting homework assignments, helping teachers assess overall class engagement.
+
+**Student Gender Ratio Report:** 
+
+Analyzes the distribution of male and female students across classes or the entire school, providing insights into gender diversity.
+
+**Student Teacher Ratio Report:** 
+
+Calculates the ratio of students to teachers in different classes or sections, helping assess the effectiveness of teacher-student interactions.
+
+
+###Finance
+
+To generate Financial reports go to Finance under Reports. The following page should appear. 
+![Reports](Images/Finance.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various Finance report type. Such as: 
+
+**Balance Fees Deposit:**
+
+This report provides a summary of fees deposited by students, indicating the remaining balance after each payment. It helps in tracking individual student payments and ensuring that the accounts are up-to-date.
+
+**Balance Fees Statement:**
+
+The Balance Fees Statement offers a detailed overview of the financial status of students in terms of pending fees. It includes information about the total fees, payments made, and the outstanding balance for each student.
+
+**Monthwise Fee Balance Report:**
+
+This report categorizes fee balances on a monthly basis, allowing administrators to analyze trends in fee payments and identify patterns over time. It aids in financial planning and forecasting.
+
+**Account Collection Report:**
+
+The Account Collection Report summarizes the total amount collected within a specified time period. It provides insights into the overall financial health of the institution and helps in monitoring revenue streams.
+
+**Balance Fees Report:**
+
+The Balance Fees Report gives an aggregate view of all outstanding fees across students or classes. It serves as a tool for financial planning and helps in prioritizing fee collection efforts.
+
+**Fees Report:**
+
+This report provides a comprehensive overview of all fees collected, including details such as the type of fees (tuition, transportation, etc.), the amount collected, and any pending payments.
+
+**Expense Report:**
+
+The Expense Report outlines the financial expenditures incurred by the school. It categorizes expenses, providing insights into where funds are allocated and helping in budget management.
+
+**Payroll Report:**
+
+The Payroll Report details the salary and compensation information for staff and faculty members. It includes individual pay details, deductions, and overall payroll expenses.
+
+**Expense Group Report:**
+
+This report categorizes expenses into groups (e.g., utilities, maintenance, salaries) for a more detailed analysis. It helps in understanding spending patterns and optimizing budget allocations.
+
+**Edit Report:**
+
+The Edit Report tracks any changes or modifications made to financial records, ensuring transparency and accountability in the system.
+
+**Add in Account:**
+
+This report provides information on additions made to financial accounts, offering insights into new revenue streams or funding sources.
+
+**Fee Assign Report:**
+
+The Fee Assign Report details the assignment of fees to students, including the type of fees assigned and any special considerations.
+
+**Fee Payment Report:**
+
+This report offers a comprehensive overview of all fee payments made by students. It includes details such as the date of payment, mode of payment, and the amount paid.
+
+
+###Attendance
+
+To generate Attendance reports go to Attendance under Reports. The following page should appear. 
+![Reports](Images/Attendance.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various Attendance report type. Such as: 
+
+**Attendance Report:**
+
+The Attendance Report provides an overall summary of attendance data, typically for a specified time period. It includes metrics such as total attendance, absentees, and present students across classes or the entire school.
+
+**Student Attendance Type Report:**
+
+This report categorizes student attendance based on different types, such as excused absences, unexcused absences, late arrivals, or early departures. It helps in understanding the reasons behind attendance variations and identifying trends.
+
+**Daily Attendance Report:**
+
+The Daily Attendance Report offers a detailed view of attendance on a day-to-day basis. It includes information on the attendance status of each student for each day, helping in monitoring attendance patterns over time.
+
+**Staff Attendance Report:**
+
+The Staff Attendance Report focuses on the attendance of teachers and other staff members. It provides insights into the punctuality and regularity of the staff, facilitating efficient workforce management.
+
+**Biometric Attendance Log:**
+
+The Biometric Attendance Log records attendance data collected through biometric authentication methods, such as fingerprint or facial recognition. It offers a secure and accurate means of tracking attendance for both students and staff.
+
+
+###Examinations
+
+To generate Examination report go to Attendance under Reports. The following page should appear. 
+![Reports](Images/Examinations.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose Rank report.<br>
+Choose Exam group, exam, session, class, section and click on search to generate Rank report for the selected group. 
+
+###Online Examinations
+
+To generate Online Examination reports go to Online Examinations under Reports. The following page should appear. 
+![Reports](Images/Online Examination.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various Online Examination report type. Such as: 
+
+**Result Report:**
+
+The Result Report provides a comprehensive overview of the performance of students in online examinations. It includes individual results, grades, and any additional performance metrics. This report is essential for students, parents, and educators to assess academic achievements.
+
+**Exams Report:**
+
+The Exams Report offers insights into the overall performance of students across multiple exams. It may include aggregated data, such as average scores, pass rates, and distribution of grades, providing a broader perspective on the academic performance of the entire student body.
+
+**Exams Attempt Report:**
+
+The Exams Attempt Report details the number of attempts made by each student in online exams. This report is useful for identifying students who may need additional support or intervention, as multiple attempts may indicate challenges in understanding the exam material.
+
+**Exams Rank Report:**
+
+The Exams Rank Report ranks students based on their performance in online exams. It provides a hierarchical view of student achievements, helping to identify high-performing students and those who may require additional attention or support.
+
+###Lesson Plan 
+
+To generate Lesson reports go to Lesson Plan under Reports. The following page should appear. 
+![Reports](Images/Lesson Plan.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various Lesson Plan report type. Such as: 
+
+**Syllabus Status Report:**
+
+The Syllabus Status Report provides an overview of the progress made in covering the curriculum or syllabus for a specific subject or class. It includes details on the topics or chapters that have been covered, those that are in progress, and any that are yet to be taught. This report is valuable for educators and administrators to monitor the alignment of teaching with the curriculum timeline.
+
+**Subject Lesson Plan Report:**
+
+The Subject Lesson Plan Report focuses on the detailed plans for teaching a specific subject. It includes information about the topics to be covered, the teaching methods to be employed, learning objectives, and any resources required. This report aids educators in organizing and structuring their teaching approach, ensuring comprehensive coverage of the subject matter.
+
+###Human Resource 
+
+To generate Human resource reports go to Human Resources under Reports. The following page should appear. 
+![Reports](Images/Human Resources.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various Human Resources report type. Such as: 
+
+**Staff Report:**
+
+The Staff Report provides detailed information about the personnel working within the educational institution. It typically includes details such as employee names, positions, contact information, qualifications, and any other relevant personnel details. This report helps in managing and tracking the staff roster, facilitating effective human resource management.
+
+**Payroll Report:**
+
+The Payroll Report summarizes financial information related to staff salaries and compensation. It includes details such as individual staff salaries, deductions, bonuses, and other financial components. This report is crucial for financial planning, budgeting, and ensuring accurate and timely disbursement of salaries to staff members.
+
+###Library 
+
+To generate Library reports go to Human Resources under Reports. The following page should appear. 
+![Reports](Images/Library.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various Library report type. Such as: 
+
+**Book Issue Report:**
+
+The Book Issue Report provides information about the books that have been issued to students, teachers, or other library users during a specific time period. It typically includes details such as the book title, borrower's information, date of issue, and due date.
+
+**Book Due Report:**
+
+The Book Due Report alerts the library staff about books that are due for return. It includes information on books that have not been returned by the specified due date, helping in tracking overdue items and facilitating the management of library resources.
+
+**Book Inventory Report:**
+
+The Book Inventory Report offers a comprehensive overview of the library's collection. It includes details about each book in the inventory, such as title, author, publication date, and the current status (available, checked out, etc.). This report aids in cataloging, organizing, and managing the library's book collection.
+
+**Book Issue Return Report:**
+
+The Book Issue Return Report provides information about books that have been returned to the library after being borrowed. It includes details such as the book title, borrower's information, date of return, and any associated fines or penalties.
+
+###Inventory
+
+To generate Inventory reports go to Inventory under Reports. The following page should appear. 
+![Reports](Images/Inventory Report.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see options to choose from various Inventory report type. Such as: 
+
+**Stock Report:**
+
+The Stock Report provides a snapshot of the current inventory levels of items within the school. It includes details such as the quantity of each item in stock, its location, and any additional information relevant to the inventory management system. This report is essential for maintaining adequate stock levels, reordering supplies, and preventing stockouts.
+
+**Add Item Report:**
+
+The Add Item Report documents the addition of new items to the inventory. It includes information such as the item name, quantity added, date of addition, and any relevant details about the new items. This report helps in tracking changes to the inventory and maintaining an accurate record of all additions.
+
+**Issue Item Report:**
+
+The Issue Item Report provides details about items that have been issued or distributed from the inventory. It includes information such as the item name, quantity issued, recipient details, date of issue, and any associated documentation. This report is crucial for monitoring item usage and tracking the flow of inventory within the school.
+
+###Transport 
+
+To generate Transport reports go to Transport under Reports. The following page should appear. 
+![Reports](Images/Transport.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see a filter to select criteria of who you want to generate the report for. 
+
+###Hostel 
+
+To generate Hostel reports go to Hostel under Reports. The following page should appear. 
+![Reports](Images/Hostel.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see a filter to select criteria of who you want to generate the report for. 
+
+###Alumni 
+
+To generate reports on Alumni go to Alumni under Reports. The following page should appear. 
+![Reports](Images/Alumni.png)
+<i>Image </i><br>
+<br>
+ In the given image, the top of the page, you can see a filter to select criteria of who you want to generate the report for. 
+
+###User Log
+
+To generate User log report i.e. reports on All user, Staff, Students, Parent, go to User Log under Reports. The following page should appear. 
+![Reports](Images/User Log.png)
+<i>Image </i><br>
+<br>
+ In the given image, you can see the report, Message, users, IP Address, Action, Platform, Agent, Date/Time. On the top right of the report there are icons that let you to copy the report, export to excel, pdf or print the report. 
+
+###Audit Trail Report 
+
+To generate Audit report, go to Audit trail Report under Reports. The following page should appear. 
+![Reports](Images/Audit Trail Report.png)
+<i>Image </i><br>
+<br>
+ In the given image, you can see the report, Message, users, IP Address, Action, Platform, Agent, Date/Time. On the top right of the report there are icons that let you to copy the report, export to excel, pdf or print the report. 
+
+
+ ##Account
+
+ ###Category
+ To define categories, go to Category under Account. The following image should appear:
+ ![Account](Images/Category.png)
+<i>Image </i><br>
+<br>
+Pre defined categories are shown in the list. If you want to define a new category, click on +Add Category button. You will be redirected to the following page: 
+ ![Account](Images/Categoryy.png)
+<i>Image </i><br>
+- Select the parent category and define ta category name is the title. 
+
+###Voucher
+To manage vouchers, go to Voucher under Account. The following page should appear:
+![Account](Images/Voucher.png)
+<i>Image </i><br>
+<br>
+
+- On the top of the page, you see a filter to enter from date and to date to search rejected journals. 
+
+- There are two options "Unapproved Voucher" and "Approved voucher"
+
+- Once you select the type of voucher you want to generate, it should appear on the list below.
+
+###Voucher Entry
+
+
+The "Add Journal Entry" function in an accounting system is a crucial feature for recording financial transactions. 
+
+- **Narration:** Provide a brief description or explanation of the journal entry. This aids in understanding the purpose or context of the transaction.
+
+- **Entry Date:** Specify the "Entry Date" to indicate when the financial transaction took place. This date is crucial for maintaining an accurate financial record and for chronological organization.
+
+- **Ledger:** Select the appropriate "Ledger" or account category involved in the transaction. This could include assets, liabilities, equity, income, or expenses.
+
+- **Balance:** The "Balance" column displays the current balance of the selected ledger. It is automatically calculated based on previous transactions associated with that ledger.
+
+- **Debit and Credit:** Users input the amounts under "Debit" or "Credit" based on the nature of the transaction. Debit increases asset and expense accounts, while credit increases liability, equity, and income accounts.
+
+- **Remarks:** The "Remarks" column allows users to add any additional notes or details related to the specific entry, providing further context or explanation.
+
+- **Action:** The "Action" column may include options such as "Edit" or "Delete," allowing users to modify or remove entries as needed.
+
+- **Remark Total:** The "Remark Total" provides a cumulative total of remarks, summarizing any additional details provided for the journal entry.
+
+- **Total:** The "Total" section displays the net effect of the journal entry, showing the overall impact on the financial accounts. The total of debit amounts should equal the total of credit amounts for the entry to be balanced.
+
+After filling the fields, click on save. 
+
+###Financial Reports
+
+Financial reports serves a distinct purpose in providing insights into various aspects of financial status and performance
+You can generate the following types of financial reports: 
+
+- Trial Balance:
+
+A Trial Balance is a financial report that provides a summary of the balances of all ledger accounts at a specific point in time. It lists the debit and credit balances, helping to verify that the accounting equation (Assets = Liabilities + Equity) is balanced.
+
+- General Ledger:
+
+The General Ledger is a comprehensive report that includes all accounts and their respective transactions. It serves as the primary accounting record, offering a detailed overview of financial activity for each account in a specified period.
+
+- Profit & Loss (Income Statement):
+
+The Profit & Loss (P&L) statement is a financial report that shows the revenues, expenses, and resulting profit or loss over a specific period. It provides insights into the operational performance of a business.
+
+- Balance Sheet:
+
+A Balance Sheet is a snapshot of a company's financial position at a specific moment, presenting assets, liabilities, and equity. It illustrates the company's financial health and its ability to meet its obligations.
+
+- Day Book:
+
+The Day Book, also known as the Journal, is a chronological record of all financial transactions. It includes details such as date, description, accounts involved, and the amount of each transaction. It is a primary source for posting entries to ledgers.
